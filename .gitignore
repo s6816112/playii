@@ -1,0 +1,15 @@
+# 忽略通过Composer安装的包
+vendor/
+
+# 忽略PHPUnit本地配置及临时文件
+phpunit.xml
+/.phpunit
+
+# 忽略各类编辑器生成的临时文件
+.swp
+
+# 忽略PHP CS Fixer生成的cache
+.php_cs.cache
+
+# 忽略练习答案 :P
+src/Answer/
